@@ -20,7 +20,7 @@ AI 모델을 컴퓨터에서 직접 실행해보는 건 처음이라 실행 환�
 당시 모델 학습을 위해 주가 데이터를 차트 이미지로 저장하고, 같은 비율로 정규화하는 프로그램(DMPredict/savechart, InvokeAI-main/resize_512)을 작성했다.  
 krx에서 KOSPI200에 속한 종목의 1년치 일별 종가 데이터를 크롤링하고 정규화해서 총 1413개의 이미지 파일을 확보했다(DMPredict/charts).
 
-이 자료를 활용해 Stable-Diffusion을 나름대로 파인튜닝해서 이미지를 뽑아 봤으나,  
+이 자료를 활용해 모델을 나름대로 파인튜닝해서 이미지를 뽑아 봤으나,  
 <img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/cd0f2cea-6e93-488f-9ce1-f1a65846bf33" />  
 나름 주가 비슷한 게 나오긴 했으나 썩 시원찮았다.
 
